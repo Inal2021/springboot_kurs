@@ -1,4 +1,4 @@
-package com.techpro.springboot_kurs;
+package springboot_kurs_controller;
 
 import java.util.List;
 
