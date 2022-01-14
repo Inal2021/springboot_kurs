@@ -100,7 +100,7 @@ public class StudentBean01Controller {  //Bu klasta Müsterinin istekleri kontro
 		@Autowired      // Buradan Java hata verir. Cünkü Interface altinda hangi class istedigimizi bilemez
 		@Qualifier(value="studentBean02")  // Autowired anotation normalde data type a bakar.
 											// @Qualifier(value="") yazarak isme bakmasini saglariz.
-		StudentInterface u;   
+		StudentInterface u;   // =new StudentBean02();  
 		
 		@GetMapping(path="/getInterface") 
 		public String getMethod8() {

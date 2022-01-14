@@ -10,7 +10,7 @@ public class PasswordConfig {
 
 	@Bean
 	public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder(10);
+        return new BCryptPasswordEncoder(10); // Buradaki 10 sifreleme seviyesini gösteriyor. 15 de olabilir 8 de...
     }
 	
 }
